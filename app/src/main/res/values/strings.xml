@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UserAuthentication</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="login">Logın</string>
+    <string name="register">Register here</string>
+    <string name="register2">REGISTER</string>
+    <string name="confPassword">Confirm Password:</string>
+    <string name="login2">Already Registered?</string>
+    <string name="login3">LOGIN</string>
+</resources>

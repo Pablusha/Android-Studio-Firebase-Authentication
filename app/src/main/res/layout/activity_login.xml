@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.ActivityLogin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/ActivityBackground">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ac_login_edt_email"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="250dp"
+            android:paddingStart="2dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_emailicon"
+            android:hint="@string/email" />
+    
+        <EditText
+            android:id="@+id/ac_login_edt_password"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:paddingStart="2dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_iconpassword"
+            android:hint="@string/password" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ac_login_btn_login"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/ButtonColor"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="@string/login" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:text="@string/register" />
+        
+        <TextView
+            android:id="@+id/ac_login_tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingStart="3dp"
+            android:textStyle="bold"
+            android:textColor="@color/registerTextColor"
+            android:text="@string/register2"
+            android:onClick="registerIntent" />
+    </LinearLayout>
+
+
+</LinearLayout>
